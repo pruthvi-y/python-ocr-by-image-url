@@ -15,9 +15,9 @@ def output_file(filename, data):
 
 def main():
 	# sample test
-	data_eng = process_image("https://raw.githubusercontent.com/frankred/node-ocr-by-image-url/master/test/resources/image0.png")
+	data_eng = process_image("https://raw.githubusercontent.com/pruthvi-y/python-ocr-by-image-url/main/resources/testimage1.png")
 	print_data(data_eng)
-	output_file("results/extractedocr.txt", data_eng)
+	output_file("results/rawocr.txt", data_eng)
 
 if  __name__ == '__main__':
 	main()
